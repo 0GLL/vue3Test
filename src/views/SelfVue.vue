@@ -7,6 +7,7 @@ import ModifierMod from './modifierMod/modifierMod.vue'
 import WatchWatch from './watchWatch/watchWatch.vue'
 import SlotSlot from './slotSlot/slotSlot.vue'
 import Father from './isAndComponent/fatherFather.vue'
+import PropsVmodelEmit from './propsVmodelEmit/propsVmodelEmit.vue'
 </script>
 
 <template>
@@ -29,6 +30,10 @@ import Father from './isAndComponent/fatherFather.vue'
       <span class="text_class">这是is以及组件的使用内容：</span><WatchWatch />
     </p>
     <p class="ref_class"><span class="text_class">这是组件和is的使用内容：</span><Father /></p>
+    <p class="ref_class">
+      <span class="text_class">这是prop、emit、v-model使用到组件中的使用内容：</span
+      ><PropsVmodelEmit />
+    </p>
   </main>
 </template>
 
