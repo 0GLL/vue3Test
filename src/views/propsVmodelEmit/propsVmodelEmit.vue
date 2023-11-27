@@ -10,7 +10,7 @@ const title = ref('title')
 </script>
 <template>
   <div>
-    <CustomInput v-model.capitalize="message" v-model:title.capitalize="title" /> {{ message }} --
+    <CustomInput v-model.trim="message" v-model:title.capitalize="title" /> {{ message }} --
     {{ title }}
     <!-- 使用v-model:title可以指定参数名，对应update:title -->
 

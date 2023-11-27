@@ -8,6 +8,7 @@ import WatchWatch from './watchWatch/watchWatch.vue'
 import SlotSlot from './slotSlot/slotSlot.vue'
 import Father from './isAndComponent/fatherFather.vue'
 import PropsVmodelEmit from './propsVmodelEmit/propsVmodelEmit.vue'
+import FallthroughAttribute from './fallthroughAttribute/fallthroughAttribute.vue'
 </script>
 
 <template>
@@ -33,6 +34,9 @@ import PropsVmodelEmit from './propsVmodelEmit/propsVmodelEmit.vue'
     <p class="ref_class">
       <span class="text_class">这是prop、emit、v-model使用到组件中的使用内容：</span
       ><PropsVmodelEmit />
+    </p>
+    <p class="ref_class">
+      <span class="text_class">这是透传attributes的使用内容：</span><FallthroughAttribute />
     </p>
   </main>
 </template>
